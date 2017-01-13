@@ -1,0 +1,15 @@
+使用方法：
+	1、下载插件到你的项目目录下
+	2、引用css样式文件
+		tab_colorful是第一种选项卡样式;
+		tab_underline是第二种选项卡样式;
+		tab_vertical是第三种选项卡样式;
+		
+	3、引用js样式文件
+	   先引用Lib下的jQuery-1.11.3.js
+	  再引用dest下的jQuery.oTabs-1.0.min.js
+	  
+参数说明：
+		参数    描述             可取值
+    styleCate 样式类型    [tab-active,tab-line-active]
+	Initevent 初始化事件  [click,mouseover,mouseout...]

@@ -1,0 +1,37 @@
+		ul,ul li{
+			list-style: none;
+		}
+			.header ul li {
+				float: left;
+				height: 4.5rem;
+				
+			}
+			.header{
+				margin: 0 auto;
+				padding: 20px 0;
+				width: 75%;
+				height: 100px;
+				background: lavender;
+				text-align: center;
+				background:linear-gradient(lavender,lightblue,lightsteelblue);
+			}
+			.header nav{
+				margin:0 31%;
+			}
+			.main{
+				width: 80%;
+				margin: 0 auto;				
+			}
+			.main-tab a {
+				text-decoration: none;
+				padding: 10px 30px;
+				font-size: 1.2rem;
+				color: #777;
+				z-index: 99;
+			}
+			
+			.main-tab a:hover {
+				color: #555;
+				font-size: 1.23rem;
+				text-shadow: 3px 3px 5px #9ACD32;
+			}

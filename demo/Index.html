@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>myplus---base-tabs</title>
+		<link rel="stylesheet" type="text/css" href="../assets/css/base_tab.css"/>		
+	</head>	
+	<body>
+		<div class="header">
+			<h1>多风格选项卡</h1>
+			<nav>
+				<ul class="main-tab">
+					<li><a href="#">风格1</a></li>
+					<li><a href="#">风格2</a></li>
+					<li><a href="#">风格3</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="main clear-fix">
+			
+		</div>		
+		<script src="../Lib/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../dest/jQuery.oTabs-1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">	
+		var tab=function(i){			
+			$(".header li:nth-child("+i+")").click(function(){
+				$(".main").load("tabs0"+i+".html");
+			});			
+		};
+		tab(1);tab(2);tab(3);
+		</script>
+	</body>
+</html>

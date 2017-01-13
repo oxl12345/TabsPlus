@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>tab_underline</title>
+		<link rel="stylesheet" type="text/css" href="../assets/css/tab_underline.css"/>
+	</head>
+	
+	<body>
+		<div class="contain">
+			<ul class="base-tab clear-fix">
+				<li><a href="#" data-index="1" class="tab-line-active">选项一</a></li>
+				<li><a href="#" data-index="2" >选项二</a></li>
+				<li><a href="#" data-index="3" >选项三</a></li>	
+				<li><a href="#" data-index="4" >选项四</a></li>				
+			</ul>
+			
+			<div class="tabs-content clear-fix">
+				<div class="tabs tab-content-active" >
+					<h3>tab1</h3>
+					<p>This is first Tabs! Welcome to come here......</p>
+					<div>
+						<img src="../assets/img/12.jpg" />
+					</div>
+				</div>
+				<div class="tabs" >
+					<h3>tab2</h3>
+				<p>This is second Tabs! Welcome to come here......</p>
+					<div>
+						<img src="../assets/img/13.jpg" />
+						<img src="../assets/img/16.jpg" />						
+					</div>					
+				</div>
+				<div class="tabs" >
+					<h3>tab3</h3>
+				<p>This is Third Tabs! Welcome to come here......</p>
+					<div>
+						<img src="../assets/img/14.jpg" />
+					</div>
+				</div>
+				<div class="tabs" >
+					<h3>tab4</h3>
+				<p>This is Fourth Tabs! Welcome to come here......</p>
+					<div>
+						<img src="../assets/img/15.jpg" />
+					</div>
+					<img src="../assets/img/17.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<script src="../Lib/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../dest/jQuery.oTabs-1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">		
+			$(".contain li a").oTabs({styleCate:"tab-line-active",Initevent:"click"});			
+		</script>	
+	</body>
+</html>

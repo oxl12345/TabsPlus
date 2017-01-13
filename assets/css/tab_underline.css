@@ -1,0 +1,77 @@
+.contain{
+				position: relative;
+				width: 80%;
+				height: 50%;
+				margin:0 auto;
+				font-size: 10px;
+				text-align: center;
+				border: 2px solid #9ACD32;
+				border-bottom-color: transparent;
+				z-index: 1;
+			}
+			.base-tab{
+				display: flex;				
+				margin: 0 auto;				
+				list-style: none;							
+			}
+			.contain ul li{				
+				float: left;
+				height:4.5rem;
+				line-height:7rem;
+				padding: 8px 2rem;
+				width: auto;				
+				z-index: 99;				
+			}
+			.base-tab a{				
+				text-decoration: none;			
+				padding:10px 30px;				
+				font-size: 1.2rem;
+				color:#777;
+				z-index: 99;	
+			}
+			.base-tab a:hover{
+				color:#555;
+				text-shadow: 3px 3px 5px #9ACD32;
+			}			
+			.tabs{
+				display: none;
+				position: absolute;
+				width:100%;
+				margin-left:-2px;
+				border: 2px solid #B0C4DE;
+				overflow: hidden;
+				border-top-color: transparent;
+			}
+			.tabs,.tabs p{
+				font-size: 1.5rem;
+			}
+			.tab-line-active{				
+				color: #000000!important;			
+				border: 2px solid transparent;				
+				border-bottom-color: #B0C4DE;			
+			}
+			.tab-content-active{
+				display: inline-block;
+			}
+			/*设置媒介样式*/
+			@media only screen and (max-width:680px) {
+			.tabs,.tabs p{
+				font-size: 1rem;
+			}
+			.contain ul li{				
+				float: left;
+				height:5rem;
+				line-height:5rem;				
+				width: auto;
+			}
+				.base-tab a{
+				text-decoration: none;			
+				padding:5px 8px;				
+				font-size: 0.7rem;
+				color:#444;
+				}				
+			}
+			.clear-fix{
+				display: table;
+				clear: both;
+			}
